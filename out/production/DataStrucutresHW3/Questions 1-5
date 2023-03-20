@@ -1,0 +1,18 @@
+1. Can we store a duplicate key in HashMap? How does HashMap handle collisions in Java?
+No we should not store a duplicate key in a HashMap but the hash function might turn two different keys into the same hash value
+resulting in a collision. Java handles collision by storing values a nodes to liked lists withing the hash array allowing collisions
+to live at the same index. the collisions can then be sorted out using a liner search
+
+2. Give some name of sorting algorithms. Among them which one you think is fastest?
+Bogo-sort, merge-sort, quick-sort
+
+
+3. How merge sort works? What is the time complexity for merge sort?
+merge sort separates n values into n/2 pairs and sorts thous pairs. Then it combines and sorts thous groups until it reaches
+the original list of items except sorted. It can be implemented recursively in java. The time complexity of the algorithm is
+O(nlog(n)) due to the processing of each layer of merges occurring in
+
+4. How can we traverse all the nodes of graph?
+
+
+5. Write the applications of Breadth First Search (BFS) and Depth First Search (DFS
