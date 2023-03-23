@@ -1,5 +1,10 @@
 public class QuestionNine {
-
+/*@author Aden D'Occhio
+ * ----------------------------------------------------------------------------
+ * I solve this problem using a recursive mythological that when an island is identified clears the island by visiting the cells
+ * neighbors making sure that every island is only counted once. time complexity O(m*n) or grid size with space complexity
+ * of 0(m*n) for the recursive stack calls
+ */
   public static int numIslands(char[][] grid) {
     int islands = 0;
     for(int i = 0; i < grid.length;i++){

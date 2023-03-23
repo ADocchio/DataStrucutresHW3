@@ -11,6 +11,7 @@ import java.util.*;
  * have an ordered list we can spimple look to see if the result is empty or no overlap occures with the next meeting time to
  * decide if we want to add it to the result list. if a overlap occurs then we simply take the last element from the linked list
  * and merge the two meeting times into a simplified form. this is then repeated for each interval in intervals.
+ * time complexity O(nlogn) space complexity is O(n)
  */
 public class QuestionEight {
   public int[][] merge(int[][] intervals) {

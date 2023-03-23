@@ -18,4 +18,7 @@ O(nlog(n)) due to the processing of each layer of merges occurring in
  There are two well know ways to traverse all the nodes of a graph, this is by using BFS and DFS, both methods
  will result in every node of a graph being visited as long as the graph is not disjoint.
 
-5. Write the applications of Breadth First Search (BFS) and Depth First Search (DFS
+5. Write the applications of Breadth First Search (BFS) and Depth First Search (DFS)
+Applications for BFS are when you want to find nodes next to your source node for it explores the neighborhood of the src node
+while DFS searches along a deep path first usually traveling away from the src node. so if you trying to follow a path DFS
+would work better.

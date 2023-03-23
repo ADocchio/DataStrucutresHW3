@@ -4,8 +4,10 @@ resulting in a collision. Java handles collision by storing values a nodes to li
 to live at the same index. the collisions can then be sorted out using a liner search
 
 2. Give some name of sorting algorithms. Among them which one you think is fastest?
-Bogo-sort, merge-sort, quick-sort
-
+Bogo-sort, merge-sort, quick-sort, and bucket sort, merge sort and quick sort work in O(nlog(n)) time while buket sort
+works in O(n) if the set is properly distributed such that each bucket has very few elements. The fastest overall for a
+general data set is most likely merge or quick sort for bucket sort can only work in certain conditions other wise it has worst
+time complexity of O(n^2)
 
 3. How merge sort works? What is the time complexity for merge sort?
 merge sort separates n values into n/2 pairs and sorts thous pairs. Then it combines and sorts thous groups until it reaches
@@ -13,6 +15,7 @@ the original list of items except sorted. It can be implemented recursively in j
 O(nlog(n)) due to the processing of each layer of merges occurring in
 
 4. How can we traverse all the nodes of graph?
+ There are two well know ways to traverse all the nodes of a graph, this is by using BFS and DFS, both methods
+ will result in every node of a graph being visited as long as the graph is not disjoint.
 
-
-5. Write the applications of Breadth First Search (BFS) and Depth First Search (DFS
+5. Write the applications of Breadth First Search (BFS) and Depth First Search (DFS)

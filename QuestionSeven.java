@@ -7,7 +7,8 @@
  * untill a duplicate is found. here the substring if it is longer than the cuurent backup Substring is set to the backupSubstring
  * and the current sub is set to the current substring withought the duplication. this conintues acrros the string untill the end were
  * the length of the largest substring is returned. This was testeded using many test cases with no duplicates, duplicates, and even
- * strings that include there logest substring blocked by two repeating charaters.
+ * strings that include there logest substring blocked by two repeating charaters. O(n) time complexity , space complexity
+ * O(1)
  */
 
 public class QuestionSeven {
